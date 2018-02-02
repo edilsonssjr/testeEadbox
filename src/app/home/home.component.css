@@ -1,0 +1,101 @@
+body{
+    background: #fafafafa;
+}
+
+mat-toolbar{
+   background: #294b7038;
+}
+
+mat-card-header{
+    font-size: 1.5rem;
+    color:  #2a4b70;
+}
+
+mat-card-actions button{
+    width: 100%;
+    color: white;
+    background: #2a4b70;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.centro{
+    text-align: center;
+    color: #294b70;
+    font-size: 2.3rem;
+}
+
+.search{
+    margin-bottom: 1%;
+    text-align: center;
+}
+.search input{
+    width: 30%;
+    height: 20px;
+}
+.search p{
+    font-size: 1.2rem;
+}
+
+.example-card {
+    width: 20%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.back-home{
+    background: #d5dae147;
+}
+
+@media screen and (max-width: 1666px) {
+	.example-card {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1515px) {
+    .example-card {
+        width: 27%;
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1170px) {
+    .example-card {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 821px) {
+    .example-card {
+        width: 23%;
+    }
+    mat-card-header{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .example-card {
+        width: 90%;
+    }
+    mat-card-header{
+        font-size: 1.1rem;
+    }
+    .centro{
+        font-size: 2rem;
+    }
+    .search{
+        margin-bottom: 1%;
+        text-align: left;
+    }
+    .search input{
+        width: 50%;
+        height: 20px;
+    }
+    .search p{
+        font-size: 1rem;
+    }
+}
+
+
